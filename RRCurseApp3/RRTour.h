@@ -9,21 +9,25 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CLGeocoder.h>
 #import "RRPerson.h"
+#import "RRManagementPersonTour.h"
+
 
 @interface RRTour : NSObject
 {
     NSString *_name;
-    NSData *_iniDate;
-    NSData *_endDate;
+    NSDate *_iniDate;
+    NSDate *_endDate;
     RRPerson *_organaiser;
     NSMutableDictionary *_personsOfTour;
     CLGeocoder *_placeTour;
 }
 
 @property NSString *_name;
-@property NSData *_iniDate;
-@property NSData *_endDate;
+@property NSDate *_iniDate;
+@property NSDate *_endDate;
 
 -(BOOL)addPersonTour:(RRPerson *)person;
--(void)paidPersonTour:()
+-(void)paidPersonTour:(NSString*)dniPerson paid:(BOOL)paid;
+-(void)addOrganiserTour:(NSString*)_dniOrganiser;	
+-(void)printLogNoPaid;
 @end

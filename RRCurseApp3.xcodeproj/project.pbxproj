@@ -22,6 +22,7 @@
 		78EF8BA818AD55780071DF13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EF8B9018AD55780071DF13 /* UIKit.framework */; };
 		78EF8BB018AD55780071DF13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78EF8BAE18AD55780071DF13 /* InfoPlist.strings */; };
 		78EF8BB218AD55780071DF13 /* RRCurseApp3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EF8BB118AD55780071DF13 /* RRCurseApp3Tests.m */; };
+		A337732B18AE736700B60550 /* RRManagementPersonTour.m in Sources */ = {isa = PBXBuildFile; fileRef = A337732A18AE736700B60550 /* RRManagementPersonTour.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		78EF8BAD18AD55780071DF13 /* RRCurseApp3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRCurseApp3Tests-Info.plist"; sourceTree = "<group>"; };
 		78EF8BAF18AD55780071DF13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78EF8BB118AD55780071DF13 /* RRCurseApp3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRCurseApp3Tests.m; sourceTree = "<group>"; };
+		A337732918AE736700B60550 /* RRManagementPersonTour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRManagementPersonTour.h; sourceTree = "<group>"; };
+		A337732A18AE736700B60550 /* RRManagementPersonTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRManagementPersonTour.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				781AD43218AD880400977982 /* RRDepartment.m */,
 				781AD43418AD882500977982 /* RRTour.h */,
 				781AD43518AD882500977982 /* RRTour.m */,
+				A337732918AE736700B60550 /* RRManagementPersonTour.h */,
+				A337732A18AE736700B60550 /* RRManagementPersonTour.m */,
 			);
 			path = RRCurseApp3;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 				781AD43318AD880400977982 /* RRDepartment.m in Sources */,
 				781AD43018AD87D900977982 /* RRPerson.m in Sources */,
 				78EF8B9918AD55780071DF13 /* main.m in Sources */,
+				A337732B18AE736700B60550 /* RRManagementPersonTour.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
