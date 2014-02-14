@@ -69,7 +69,16 @@ RRManagementPersonTour *value = [_personsOfTour objectForKey:dniPerson];
 
 }
 -(void)addOrganiserTour:(NSString*)_dniOrganiser
-{}
+{
+    if ([[_personsOfTour allKeys] containsObject:_dniOrganiser])
+    {
+        RRManagementPersonTour *value = [_personsOfTour objectForKey:_dniOrganiser];
+        value._organiser=YES;
+        
+    }
+
+
+}
 -(void)printLogNoPaid
 {
     for(id key in _personsOfTour) {
