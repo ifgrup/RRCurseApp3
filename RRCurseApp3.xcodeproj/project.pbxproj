@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781AD43018AD87D900977982 /* RRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 781AD42F18AD87D900977982 /* RRPerson.m */; };
+		781AD43318AD880400977982 /* RRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 781AD43218AD880400977982 /* RRDepartment.m */; };
+		781AD43618AD882500977982 /* RRTour.m in Sources */ = {isa = PBXBuildFile; fileRef = 781AD43518AD882500977982 /* RRTour.m */; };
 		78EF8B8D18AD55780071DF13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EF8B8C18AD55780071DF13 /* Foundation.framework */; };
 		78EF8B8F18AD55780071DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EF8B8E18AD55780071DF13 /* CoreGraphics.framework */; };
 		78EF8B9118AD55780071DF13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EF8B9018AD55780071DF13 /* UIKit.framework */; };
@@ -32,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		781AD42E18AD87D900977982 /* RRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRPerson.h; sourceTree = "<group>"; };
+		781AD42F18AD87D900977982 /* RRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRPerson.m; sourceTree = "<group>"; };
+		781AD43118AD880400977982 /* RRDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRDepartment.h; sourceTree = "<group>"; };
+		781AD43218AD880400977982 /* RRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRDepartment.m; sourceTree = "<group>"; };
+		781AD43418AD882500977982 /* RRTour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRTour.h; sourceTree = "<group>"; };
+		781AD43518AD882500977982 /* RRTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRTour.m; sourceTree = "<group>"; };
 		78EF8B8918AD55780071DF13 /* RRCurseApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRCurseApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EF8B8C18AD55780071DF13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78EF8B8E18AD55780071DF13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +120,12 @@
 				78EF8B9C18AD55780071DF13 /* RRAppDelegate.m */,
 				78EF8B9E18AD55780071DF13 /* Images.xcassets */,
 				78EF8B9318AD55780071DF13 /* Supporting Files */,
+				781AD42E18AD87D900977982 /* RRPerson.h */,
+				781AD42F18AD87D900977982 /* RRPerson.m */,
+				781AD43118AD880400977982 /* RRDepartment.h */,
+				781AD43218AD880400977982 /* RRDepartment.m */,
+				781AD43418AD882500977982 /* RRTour.h */,
+				781AD43518AD882500977982 /* RRTour.m */,
 			);
 			path = RRCurseApp3;
 			sourceTree = "<group>";
@@ -240,7 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781AD43618AD882500977982 /* RRTour.m in Sources */,
 				78EF8B9D18AD55780071DF13 /* RRAppDelegate.m in Sources */,
+				781AD43318AD880400977982 /* RRDepartment.m in Sources */,
+				781AD43018AD87D900977982 /* RRPerson.m in Sources */,
 				78EF8B9918AD55780071DF13 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +462,7 @@
 				78EF8BB718AD55780071DF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78EF8BB818AD55780071DF13 /* Build configuration list for PBXNativeTarget "RRCurseApp3Tests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +471,7 @@
 				78EF8BBA18AD55780071DF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
